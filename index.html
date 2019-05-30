@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jQuery RPS</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+/>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+  <div class="container">
+
+    <div id = "game_area" class="game">
+      <div id = "choice_area">
+        <div class="is-large select">
+          <select name="choices" id="choices">
+            <option value="rock">Rock</option>
+            <option value="paper">Paper</option>
+            <option value="scissors">Scissors</option>
+          </select>
+        </div>
+        <button id="lock_in"class= "button">Lock it in</button>
+        <div id= "result">
+        <div id = "user_choice" class="choice">
+
+        </div>
+        <div id = "comp_choice"class="choice">
+
+          </div>
+      </div>
+    </div>
+    <div class="message"></div>
+
+  </div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/main.js" type="module"></script>
+</body>
+</html>
