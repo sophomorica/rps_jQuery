@@ -20,3 +20,18 @@ h1{
   display:flex;
   justify-content: space-around;
 }
+#scores{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.score{
+  height: 200px;
+  width:200px;
+  background-color: rgba(139, 115, 131, 0.568);
+  border: 2px solid black;
+}
+.view_choice{
+  font-size: 25px;
+  font-weight: bold;
+}
