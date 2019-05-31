@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  var rock = $("#rock");
-  var paper = $("#paper");
-  var scissors = $("#scissors");
+  // var rock = $("#rock");
+  // var paper = $("#paper");
+  // var scissors = $("#scissors");
   var arr = ["rock", "paper", "scissors"];
 
   
@@ -16,7 +16,7 @@ $(document).ready(function() {
       userBox.append('<h1 class = "view_choice">' + choice + "</h1>");
     }
     compBox.append('<h1 class = "view_choice">' + compChoice + "</h1>");
-    debugger
+    
     switch (true) {
       case choice === compChoice:
         alert("you tie");
